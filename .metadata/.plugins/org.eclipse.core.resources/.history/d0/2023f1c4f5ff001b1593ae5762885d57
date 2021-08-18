@@ -1,0 +1,21 @@
+package ch01;
+
+public class Variable {
+	// start of main
+	public static void main(String[] args) {
+		
+		// 변수를 사용하는 방법
+		int age; 				// 변수를 선언
+		int count; 			// 변수를 선언
+		
+		// 초기화 (값을 대입하다)
+		age = 10;
+		count = 100;
+		
+		System.out.println(age);
+		System.out.println(count);
+		
+		
+	} // end of main
+
+} // end of class
