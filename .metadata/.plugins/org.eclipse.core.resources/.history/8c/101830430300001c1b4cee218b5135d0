@@ -21,7 +21,7 @@ public class DataType4 {
 		System.out.println("--------------------");
 		System.out.println(true);
 		System.out.println();
-		System.out.println(false);
+		
 
 	}
 
