@@ -1,0 +1,25 @@
+package ch01;
+
+public class CharacterTest {
+	// start of main
+	public static void main(String[] args) {
+		
+		char ch1 = 'A';
+		System.out.println(ch1);
+		System.out.println((int)ch1);
+		
+		char ch2 = 66;
+		System.out.println(ch2);
+		System.out.println((int)ch2);
+		
+		// char 타입은 음수값은 대입 불가
+		// char ch3 = -67
+		
+		char ch4 = '김';
+		System.out.println(ch4);
+		
+		
+		
+	}	// end of main
+
+}	// end of class

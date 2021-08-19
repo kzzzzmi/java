@@ -1,0 +1,13 @@
+package ch01;
+
+public class CharacterTest {
+	// start of main
+	public static void main(String[] args) {
+		
+		char ch1 = 'A';
+		System.out.println(ch1);
+		System.out.println(ch1);
+		
+	}	// end of main
+
+}	// end of class

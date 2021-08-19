@@ -1,0 +1,26 @@
+package ch01;
+
+public class DataType4 {
+
+	public static void main(String[] args) {
+		
+		char ch1 = 'A';
+		System.out.println(ch1);
+		System.out.println((int) ch1);
+
+		char ch2 = 66;
+		System.out.println(ch2);
+		System.out.println((int) ch2);
+
+		char ch3 = 67;
+		System.out.println(ch3);
+		System.out.println((int) ch3);
+
+		// char ch4 = -68; 음수 대입 불가
+
+		char ch5 = '김';
+		System.out.println((int) ch5);
+
+	}
+
+}
