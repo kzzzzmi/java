@@ -47,7 +47,6 @@ public class OperatorEx1 {
 		// 단, 선언과 초기화를 동시에 해주세요
 		int max = (num1 >= num2) ? num1 : num2;
 		System.out.println(max);
-
 	}
 
 }

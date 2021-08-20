@@ -1,0 +1,18 @@
+package ch04;
+
+public class IfMainTest {
+
+	public static void main(String[] args) {
+		
+		// 제어문 if
+		// 주어진 조건에 따라서 실행이 이루어지도록 구현
+		boolean flag = true;
+		
+		// if문 단독
+		if(flag) {
+			System.out.println("조건식이 true이면 실행됩니다.");
+		}
+
+	}
+
+}

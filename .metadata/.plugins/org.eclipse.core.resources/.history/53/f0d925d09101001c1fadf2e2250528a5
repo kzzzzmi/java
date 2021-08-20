@@ -1,0 +1,23 @@
+package ch05;
+
+public class ContinueTest {
+
+	public static void main(String[] args) {
+		
+		// 예약어 continue
+		// 무시하고 진행하는 continue
+		
+		int num;
+		int count = 0;
+		
+		for(num = 1; num < 10; num++) {		
+			// 3에 배수이면 출력x
+			if(num % 3 == 0) {
+				continue;
+			}
+			System.out.println(num);
+		}
+
+	}
+
+}
