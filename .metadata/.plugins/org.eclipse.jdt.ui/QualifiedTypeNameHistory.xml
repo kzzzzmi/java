@@ -15,4 +15,9 @@
     <fullyQualifiedTypeName name="ch04.Subway"/>
     <fullyQualifiedTypeName name="ch04.Student"/>
     <fullyQualifiedTypeName name="ch05.Student"/>
+    <fullyQualifiedTypeName name="ch06.Engine"/>
+    <fullyQualifiedTypeName name="ch07.Hero"/>
+    <fullyQualifiedTypeName name="ch09.NumberPrinter"/>
+    <fullyQualifiedTypeName name="ch09.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
 </qualifiedTypeNameHistroy>
