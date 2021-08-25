@@ -6,28 +6,25 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
+		Scanner sc = new Scanner(System.in);		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		int[] number = new int[10];
 		
-		int arr[] = new int[num];
+		int times = a * b * c;
+		int mod = 0;
 		
-		for(int i=0; i<num; i++) {
-			arr[i] = sc.nextInt();
+		while(times  != 0) {
+			mod = times % 10;
+			number[mod]++;
+			times /= 10;
 		}
 		
-		int min = arr[0];
-		int max = arr[0];
-		
-		for(int i=0; i<num; i++) {
-			if(min > arr[i]) {
-				min = arr[i];
-			}
-			if(max < arr[i]) {
-				max = arr[i];
-			}
+		for(int i=0; i<number.length; i++) {
+			System.out.println(number[i]);
 		}
-
-		System.out.print(min + " " + max);
+		
 	}
 
 }
