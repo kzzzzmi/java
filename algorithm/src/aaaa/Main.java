@@ -1,29 +1,33 @@
 package aaaa;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
 		
-		int n = sc.nextInt();
-		int x = sc.nextInt();
+		int arr[] = new int[num];
 		
-		ArrayList<Integer> arr = new ArrayList<Integer>();
-		
-		for(int i = 0; i < n; i++) {
-			arr.add(sc.nextInt());
+		for(int i=0; i<num; i++) {
+			arr[i] = sc.nextInt();
 		}
 		
-		for(int i = 0; i < n; i++) {
-			if(arr.get(i) < x) {
-				System.out.print(arr.get(i) + " ");
+		int min = arr[0];
+		int max = arr[0];
+		
+		for(int i=0; i<num; i++) {
+			if(min > arr[i]) {
+				min = arr[i];
+			}
+			if(max < arr[i]) {
+				max = arr[i];
 			}
 		}
-		
 
+		System.out.print(min + " " + max);
 	}
 
 }

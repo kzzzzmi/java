@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ch03.Student"><rhs name\="ch03.Student"/></lhs><lhs name\="ch03.Person"><rhs name\="ch03.Person"/></lhs><lhs name\="ch03.Order"><rhs name\="ch03.Order"/></lhs><lhs name\="ch04.Bus"><rhs name\="ch04.Bus"/></lhs><lhs name\="ch04.Subway"><rhs name\="ch04.Subway"/></lhs><lhs name\="ch04.Student"><rhs name\="ch04.Student"/></lhs><lhs name\="ch05.Student"><rhs name\="ch05.Student"/></lhs></history>
 content_assist_number_of_computers=12
 eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2

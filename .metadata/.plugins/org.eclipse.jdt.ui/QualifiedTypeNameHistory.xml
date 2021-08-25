@@ -5,6 +5,14 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="ch02.Student"/>
     <fullyQualifiedTypeName name="queue.Queue"/>
+    <fullyQualifiedTypeName name="ch02.Student"/>
+    <fullyQualifiedTypeName name="ch03.Student"/>
+    <fullyQualifiedTypeName name="ch03.UserInfo"/>
+    <fullyQualifiedTypeName name="ch03.Person"/>
+    <fullyQualifiedTypeName name="ch03.Order"/>
+    <fullyQualifiedTypeName name="ch04.Bus"/>
+    <fullyQualifiedTypeName name="ch04.Subway"/>
+    <fullyQualifiedTypeName name="ch04.Student"/>
+    <fullyQualifiedTypeName name="ch05.Student"/>
 </qualifiedTypeNameHistroy>
