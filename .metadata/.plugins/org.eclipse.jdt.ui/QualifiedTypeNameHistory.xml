@@ -20,4 +20,13 @@
     <fullyQualifiedTypeName name="ch09.NumberPrinter"/>
     <fullyQualifiedTypeName name="ch09.Employee"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="ch10.Marine"/>
+    <fullyQualifiedTypeName name="ch10.Zergling"/>
+    <fullyQualifiedTypeName name="ch12.Book"/>
+    <fullyQualifiedTypeName name="ch02.Warrior"/>
+    <fullyQualifiedTypeName name="ch02.Archer"/>
+    <fullyQualifiedTypeName name="ch02.Wizard"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Or"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.OrientationRequested"/>
+    <fullyQualifiedTypeName name="ch03.AICar"/>
 </qualifiedTypeNameHistroy>

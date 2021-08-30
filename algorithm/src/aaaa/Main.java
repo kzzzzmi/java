@@ -6,23 +6,39 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);		
-		int a = sc.nextInt();
-		int b = sc.nextInt();
+		Scanner sc = new Scanner(System.in);
 		int c = sc.nextInt();
-		int[] number = new int[10];
+		int[] test = new int[c];
+		int[][] student = new int[c][];
+		int sum = 0;
+		int avg;
+		int temp;
 		
-		int times = a * b * c;
-		int mod = 0;
-		
-		while(times  != 0) {
-			mod = times % 10;
-			number[mod]++;
-			times /= 10;
+		for(int i=0; i<test.length; i++) {
+			test[i] = sc.nextInt();
+			student[i] = new int[test[i]];
+			
+			for(int j=0; j<test[i]; j++) {
+				student[i][j] = sc.nextInt();
+			}
 		}
 		
-		for(int i=0; i<number.length; i++) {
-			System.out.println(number[i]);
+		for(int i=0; i<student.length; i++) {
+			temp = 0;
+			sum = 0;
+			
+			for(int j=0; j<student[i].length; j++) {
+				sum += student[i][j];
+			}
+			avg = sum / student[i].length;
+			
+			for(int j=0; j<student[i].length; j++) {
+				if(student[i][j] > avg) {
+					temp++;
+				}
+			}
+			
+			System.out.printf("%.3f%%\n", (double)temp / student[i].length * 100);
 		}
 		
 	}
