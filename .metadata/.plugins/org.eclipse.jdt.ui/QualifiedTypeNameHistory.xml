@@ -29,4 +29,14 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Or"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.OrientationRequested"/>
     <fullyQualifiedTypeName name="ch03.AICar"/>
+    <fullyQualifiedTypeName name="ch13.Dragon"/>
+    <fullyQualifiedTypeName name="ch13.DarkTempler"/>
+    <fullyQualifiedTypeName name="ch02.RemoteController"/>
+    <fullyQualifiedTypeName name="ch02.Television"/>
+    <fullyQualifiedTypeName name="ch02.Refrigerator"/>
+    <fullyQualifiedTypeName name="ch02.ToyRobot"/>
+    <fullyQualifiedTypeName name="ch02.SoundEffect"/>
+    <fullyQualifiedTypeName name="ch04.UserInfoMySqlDao"/>
+    <fullyQualifiedTypeName name="ch04.UserInfoOracleDao"/>
+    <fullyQualifiedTypeName name="ch04.UserInfoMsSqlDao"/>
 </qualifiedTypeNameHistroy>

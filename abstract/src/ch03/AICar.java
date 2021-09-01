@@ -12,5 +12,15 @@ public class AICar extends Car {
 	public void stop() {
 		System.out.println("스스로 정차합니다");		
 	}
+	
+	@Override
+	public void wiper() {
+		System.out.println("스스로 wiper 동작을 합니다");
+	}
+	
+	@Override
+	public void washCar() {
+		System.out.println("스스로 세차를 합니다");
+	}
 
 }
