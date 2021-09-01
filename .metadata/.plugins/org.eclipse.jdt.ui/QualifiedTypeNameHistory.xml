@@ -39,4 +39,12 @@
     <fullyQualifiedTypeName name="ch04.UserInfoMySqlDao"/>
     <fullyQualifiedTypeName name="ch04.UserInfoOracleDao"/>
     <fullyQualifiedTypeName name="ch04.UserInfoMsSqlDao"/>
+    <fullyQualifiedTypeName name="ch01.Book"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="ch01.MyException"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
 </qualifiedTypeNameHistroy>
