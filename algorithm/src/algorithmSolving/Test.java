@@ -1,4 +1,4 @@
-package aaaa;
+package algorithmSolving;
 
 public class Test {
 
