@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ch02.Warrior"/>
-    <fullyQualifiedTypeName name="ch02.Archer"/>
     <fullyQualifiedTypeName name="ch02.Wizard"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Or"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.OrientationRequested"/>
@@ -55,9 +53,11 @@
     <fullyQualifiedTypeName name="ch01.MyRunnable2"/>
     <fullyQualifiedTypeName name="ch03.PriorityThread"/>
     <fullyQualifiedTypeName name="ch03.JoinTest"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
     <fullyQualifiedTypeName name="ch06.MiniAmongUs"/>
     <fullyQualifiedTypeName name="ch06.MiniAmongUs.CustomJPanel"/>
     <fullyQualifiedTypeName name="java.awt.event.KeyAdapter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
 </qualifiedTypeNameHistroy>
