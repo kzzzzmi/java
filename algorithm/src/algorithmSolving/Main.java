@@ -3,22 +3,24 @@ package algorithmSolving;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class Main {
 
-	public static void main(String[] args) throws IOException {
-
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		String[] line = bf.readLine().split(" ");
-		int up = Integer.parseInt(line[0]);
-		int down = Integer.parseInt(line[1]);
-		int total = Integer.parseInt(line[2]);
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int test = Integer.parseInt(br.readLine());
 		
-		int day = (total - down) / (up - down);
+		StringTokenizer st;
 		
-		if((total - down) % (up - down) != 0) {
-			day++;
+		for(int i=0; i<test; i++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			int k = Integer.parseInt(st.nextToken());
+			int n = Integer.parseInt(st.nextToken());
+			
+			System.out.println(k);
+			System.out.println(n);
 		}
-		System.out.println(day);
+		
 	}
 }
