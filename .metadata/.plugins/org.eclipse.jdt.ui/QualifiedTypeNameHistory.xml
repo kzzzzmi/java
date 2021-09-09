@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ch02.Wizard"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Or"/>
-    <fullyQualifiedTypeName name="javax.print.attribute.standard.OrientationRequested"/>
-    <fullyQualifiedTypeName name="ch03.AICar"/>
-    <fullyQualifiedTypeName name="ch13.Dragon"/>
-    <fullyQualifiedTypeName name="ch13.DarkTempler"/>
-    <fullyQualifiedTypeName name="ch02.RemoteController"/>
-    <fullyQualifiedTypeName name="ch02.Television"/>
-    <fullyQualifiedTypeName name="ch02.Refrigerator"/>
-    <fullyQualifiedTypeName name="ch02.ToyRobot"/>
-    <fullyQualifiedTypeName name="ch02.SoundEffect"/>
-    <fullyQualifiedTypeName name="ch04.UserInfoMySqlDao"/>
-    <fullyQualifiedTypeName name="ch04.UserInfoOracleDao"/>
-    <fullyQualifiedTypeName name="ch04.UserInfoMsSqlDao"/>
     <fullyQualifiedTypeName name="ch01.Book"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
@@ -37,7 +23,6 @@
     <fullyQualifiedTypeName name="linkedList.DoubleLikedList"/>
     <fullyQualifiedTypeName name="ch05.Point"/>
     <fullyQualifiedTypeName name="ch05.ColorChangeFrame"/>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="ch05.MyFrame5"/>
@@ -60,4 +45,19 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="ch01.SubActivity"/>
+    <fullyQualifiedTypeName name="ch01.CallbackBtnAction"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.comp.Flow"/>
+    <fullyQualifiedTypeName name="ch00.CalllbackBtnAction"/>
+    <fullyQualifiedTypeName name="ch00.MainActivity"/>
+    <fullyQualifiedTypeName name="ch00.SubActivity"/>
+    <fullyQualifiedTypeName name="ch02.Activity2"/>
+    <fullyQualifiedTypeName name="ch02.CallbackCheckPosition"/>
+    <fullyQualifiedTypeName name="ch03.CallbackCheckPosition"/>
+    <fullyQualifiedTypeName name="ch03.Activity1"/>
+    <fullyQualifiedTypeName name="ch03.Activity2"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="ch04.MyArticle"/>
 </qualifiedTypeNameHistroy>
