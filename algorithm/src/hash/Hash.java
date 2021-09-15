@@ -1,11 +1,13 @@
 package hash;
 
-public class MyHash {
+public class Hash {
 	
 	public Slot[] hashTable;
+	int size;
 	
-	public MyHash(int size) {
+	public Hash(int size) {
 		hashTable = new Slot[size];
+		this.size = size;
 	}
 	
 	public class Slot {
@@ -19,14 +21,18 @@ public class MyHash {
 	}
 	
 	public int hashFunc(String key) {
-		return(int)(key.charAt(0)) % this.hashTable.length;
+		 int index = 0;
+	        for(int i = 0; i < key.length(); i++) {
+	            index += key.charAt(i);
+	        }
+	        return (int)(index % size);
 	}
 	
 	public boolean saveData(String key, String value) {
 		int address = this.hashFunc(key);
 		if(this.hashTable[address] != null) {
 			Slot findSlot = this.hashTable[address];
-			Slot prevSlot = this.hashTable[address];
+			Slot prevSlot = null;
 			while(findSlot != null) {
 				if(findSlot.key == key) {
 					findSlot.value = value;
